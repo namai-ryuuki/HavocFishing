@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\namaex3d.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{56CB17A3-4E4B-44A8-BA70-0C1DCE99F4BD}</ProjectGuid>
     <RootNamespace>HavocFishing</RootNamespace>
@@ -115,12 +121,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\NAMAEX3D\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\NAMAEX3D\namaex3d.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

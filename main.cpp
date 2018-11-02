@@ -20,6 +20,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmd
 	/* シーンの追加 */
 	//test.AddScene((Scene *)&game);
 
+
+
 	/* アプリケーションの再生 */
 	test.Play();
 }
